@@ -4,3 +4,15 @@
 // When you have solved this, create new values for your array and ensure it still works as expected.
 
 // YOUR CODE HERE
+var arr=[500,30,7,0];
+for (var i=0;i<arr.length;i++) {
+    if(arr[i]>=10) {
+        console.log("Big");
+    }
+    else if(arr[i]<=5) {
+        console.log("Small");
+    }
+    else {
+        console.log(arr[i]);
+    }
+}
